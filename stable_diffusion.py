@@ -7,8 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1RL2lbgqn3dI8PKURU6YuMz9zFjWbB0Bc
 """
 
-!pip install diffusers transformers accelerate datasets torch torchvision
-
 import torch
 from torchvision import datasets, transforms
 from torch.utils.data import DataLoader
